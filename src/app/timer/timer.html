@@ -1,0 +1,6 @@
+<div class="timer-container">
+  <h1>20-20-20 Rule Timer</h1>
+  <div class="timer-display">{{ timerDisplay }}</div>
+  <button (click)="startTimer()" [disabled]="isRunning">Start Timer</button>
+  <button (click)="resetTimer()">Reset Timer</button>
+</div>
